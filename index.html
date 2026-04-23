@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Washington, DC Smart Travel Planner Proposal</title>
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --text: #222;
+      --muted: #5b6570;
+      --accent: #1f5f8b;
+      --border: #d9e1e8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 32px 18px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    .page {
+      max-width: 980px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 42px 48px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: var(--muted);
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 28px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      margin: 0 0 14px;
+      font-size: 1.03rem;
+    }
+
+    .box {
+      background: #f9fbfd;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin: 14px 0 18px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    ul {
+      margin: 8px 0 0 22px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .footer-note {
+      margin-top: 32px;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+        padding: 0;
+      }
+
+      .page {
+        max-width: none;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .page {
+        padding: 26px 20px;
+      }
+
+      .two-col {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <h1>Washington, DC Smart Travel Planner</h1>
+    <div class="subtitle">Geospatial Portfolio Project Proposal</div>
+
+    <h2>Summary</h2>
+    <p>
+      This project is about building a travel planning tool for Washington, DC that feels practical and easy to use.
+      A visitor can choose <strong>how many days they will stay</strong>, <strong>how many hours they want to spend each day</strong>,
+      <strong>what they are interested in</strong>, and <strong>how they prefer to travel</strong>. Based on those choices,
+      the system creates a clear day by day plan.
+    </p>
+    <p>
+      Instead of only showing locations on a map, the application organizes them into a real itinerary. It arranges places in a logical order,
+      connects them with routes, and keeps travel time as low as possible. The user can also define where each day starts and ends,
+      such as a hotel or another chosen location, so the plan feels more personal and realistic.
+    </p>
+    <p>
+      The final result works both digitally and in print. The user can view the itinerary on a map, follow the route, and print either each day separately
+      or the full trip together.
+    </p>
+
+    <h2>Scope</h2>
+    <p>
+      This project focuses only on <strong>Washington, DC</strong> so the work can go deeper instead of becoming too broad. The goal is to build one strong example
+      that shows how geospatial tools can support real decisions.
+    </p>
+    <div class="box">
+      <p><strong>The system allows the user to choose:</strong></p>
+      <ul>
+        <li>How many days they want to stay</li>
+        <li>How many hours they want to spend each day</li>
+        <li>Their interests such as museums, parks, history, monuments, and food</li>
+        <li>Whether food stops should be included</li>
+        <li>Whether they prefer walking, public transportation, or driving</li>
+        <li>Where each day should start and end, such as a hotel or selected location</li>
+      </ul>
+    </div>
+    <p>
+      Based on these choices, the system builds a plan where each day includes a sequence of places that make sense geographically and are arranged in order.
+    </p>
+
+    <h2>Project Idea</h2>
+    <p>
+      The main idea is to create a <strong>smart itinerary planner</strong> that respects both space and time.
+      If someone is staying for three days, wants to spend about six hours each day, is interested in history and parks,
+      and prefers walking or public transportation, the system should respond with a plan that actually feels usable.
+    </p>
+    <p>
+      Each day includes a reasonable number of stops. The locations are grouped so they are close to each other.
+      The stops are ordered clearly as <strong>1, 2, 3</strong>, and so on. Routes connect the stops so the user understands how to move from one place to the next.
+      The plan should feel natural and avoid sending the user back and forth across the city.
+    </p>
+
+    <h2>Data Sources</h2>
+    <div class="two-col">
+      <div class="box">
+        <h3>OpenStreetMap</h3>
+        <p>
+          This is the main source for attractions and supporting map data. It provides museums, monuments, parks, restaurants, cafes,
+          roads, metro stations, and paths. It gives the project a strong spatial foundation and also supports route generation.
+        </p>
+      </div>
+      <div class="box">
+        <h3>Wikipedia and Wikivoyage</h3>
+        <p>
+          Wikipedia adds short descriptions for important places. Wikivoyage adds travel-oriented context, especially at the neighborhood level,
+          helping connect individual locations into a more complete travel experience.
+        </p>
+      </div>
+    </div>
+    <p>
+      Transportation and routing data also come from open sources. Road and path networks from OpenStreetMap can be used to generate routes between stops.
+      Public transportation can be approximated using available open transit data, depending on how detailed the implementation becomes.
+    </p>
+
+    <h2>Process</h2>
+    <p>
+      The process starts with collecting data from open sources and preparing it into a clean and consistent dataset.
+      After that, the focus shifts to understanding how locations relate to each other.
+    </p>
+    <p>
+      The most important question guiding the work is simple: <strong>What is the best order to visit these places while minimizing travel time and staying within the user’s daily limits?</strong>
+      Locations are grouped based on proximity, filtered based on user interests, and organized into daily plans.
+      The number of stops is adjusted based on how much time the user wants to spend each day.
+    </p>
+    <p>
+      In the end, the system produces a structured itinerary that can be explored on a map and also printed.
+    </p>
+
+    <h2>Technical Architecture</h2>
+    <p>
+      The project follows a complete but simple workflow. Open data sources provide the raw information.
+      Python is used to clean the data and apply the logic for ranking and organizing locations.
+      QGIS is used for spatial analysis, clustering, route visualization, and map design.
+      A spatial database is used to store and manage the data.
+      A lightweight web application allows users to interact with the final result.
+    </p>
+    <p>
+      Routing between stops is supported using open road network data, which makes it possible to generate paths that follow real streets and paths.
+    </p>
+
+    <h2>Advanced QGIS Analysis and Visualization</h2>
+    <p>
+      QGIS is the core of this project and where most of the value is created. One of the most important steps is grouping nearby locations.
+      This helps identify areas where a visitor can spend time without traveling far. These clusters often match real-world areas like the National Mall or Georgetown.
+    </p>
+    <p>
+      After grouping, the next step is ordering the locations in a way that makes sense. The goal is to move from one nearby place to the next instead of jumping across the city.
+      Accessibility is also considered by looking at how close locations are to transit or walkable routes. Density patterns help explain why some areas are prioritized.
+    </p>
+    <p>
+      One of the most interesting parts of the project is how time is handled. Locations are not just grouped in space, but also assigned to specific days.
+      The map clearly shows numbered stops in order, routes connecting those stops, and different location types styled in a way that is easy to understand.
+    </p>
+    <p>
+      The project also produces printable maps. Each day can be printed separately with its own route and numbered stops,
+      and the full itinerary can also be printed as one combined map.
+    </p>
+
+    <h2>Implementation Phases</h2>
+    <p>
+      The project starts with collecting open data for attractions, food, parks, roads, and transportation features in Washington, DC.
+      The next step is cleaning and organizing the data into a consistent structure with clear categories.
+    </p>
+    <p>
+      After that, spatial analysis is performed in QGIS to group locations, understand proximity, and support route-based planning.
+      Then the itinerary is created based on user inputs such as trip length, daily time, interests, travel mode, and start and end points.
+    </p>
+    <p>
+      Once the plan is ready, maps are designed to clearly show the ordered stops and routes.
+      Finally, a simple web application is built to allow users to interact with the plan and view it before printing.
+    </p>
+
+    <h2>Key Features</h2>
+    <div class="box">
+      <ul>
+        <li>The user chooses how many days they want to stay and how many hours they want to spend each day</li>
+        <li>The user selects their interests and decides whether food should be included</li>
+        <li>The user chooses how they want to travel and defines where each day starts and ends</li>
+        <li>The system generates a day by day plan where locations are grouped and ordered to reduce unnecessary travel</li>
+        <li>Each stop is shown on the map with a number so the order is clear</li>
+        <li>Routes connect the stops so the user can follow the path easily</li>
+        <li>The plan can be viewed online and printed either day by day or as a full itinerary</li>
+      </ul>
+    </div>
+
+    <h2>Conclusion</h2>
+    <p>
+      This project shows how geospatial tools can be used to solve a real and familiar problem in a practical way.
+      It brings together open data, spatial analysis, and clear map design to create something that is easy to understand and useful.
+    </p>
+    <p>
+      More importantly, it shows that GIS is not just about displaying data. It is about using location to guide decisions,
+      organize experiences, and create something that people can actually use in real life.
+    </p>
+
+    <p class="footer-note">
+      This HTML page is designed to work well on GitHub Pages and also print cleanly as a proposal page.
+    </p>
+  </main>
+</body>
+</html>
