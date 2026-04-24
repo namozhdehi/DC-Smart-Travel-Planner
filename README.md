@@ -24,7 +24,9 @@
 
 <h2>Final Map</h2>
 
-<img src="DC_Travel_Planner_Map.png" alt="DC Smart Travel Planner Map" width="900">
+<a href="DC_Travel_Planner_Map.png" target="_blank">
+  <img src="DC_Travel_Planner_Map.png" alt="DC Smart Travel Planner Map" width="900">
+</a>
 
 <h2>Methodology</h2>
 
@@ -54,9 +56,26 @@
 <h2>Project Files</h2>
 
 <ul>
-  <li><strong>dc_travel_planner_map.pdf</strong> — final printable map</li>
-  <li><strong>DC_Travel_Planner_Map.png</strong> — visual preview</li>
-  <li><strong>dc_top_attractions.gpkg</strong> — processed geospatial dataset</li>
+  <li>
+    <a href="dc_travel_planner_map.pdf" target="_blank">
+      <strong>dc_travel_planner_map.pdf</strong>
+    </a>
+    — final printable map
+  </li>
+
+  <li>
+    <a href="DC_Travel_Planner_Map.png" target="_blank">
+      <strong>DC_Travel_Planner_Map.png</strong>
+    </a>
+    — visual preview
+  </li>
+
+  <li>
+    <a href="dc_top_attractions.gpkg" target="_blank">
+      <strong>dc_top_attractions.gpkg</strong>
+    </a>
+    — processed geospatial dataset
+  </li>
 </ul>
 
 <h2>Tools and Technologies</h2>
