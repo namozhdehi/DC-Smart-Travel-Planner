@@ -1,68 +1,76 @@
 <h1>DC Smart Travel Planner (GIS Project)</h1>
 
 <p>
-  This project uses <strong>geospatial analysis</strong> to identify and visualize the most important attractions in <strong>Washington, DC</strong>.
+  This project demonstrates how <strong>geospatial analysis</strong> can be used to organize and simplify travel decision-making in <strong>Washington, DC</strong>.
 </p>
 
 <p>
-  Instead of simply mapping all locations, the goal was to organize them in a more meaningful way. Attractions are grouped based on proximity, ranked based on importance, and reduced to one key location per area. This creates a clearer and more practical view for travel planning.
+  Instead of displaying all locations equally, the analysis groups nearby attractions into meaningful clusters, ranks them based on importance, and selects one representative location per area. This reduces visual clutter and highlights the most valuable places for visitors.
 </p>
 
 <h2>Project Overview</h2>
 
 <p>
-  The workflow starts with collecting open geospatial data from <strong>OpenStreetMap</strong>. The data is cleaned and filtered in <strong>QGIS</strong> to remove unnecessary fields and incomplete records.
+  The workflow begins with collecting open geospatial data from <strong>OpenStreetMap</strong>. The data is then cleaned and prepared in <strong>QGIS</strong>, including removing incomplete records, standardizing attributes, and ensuring spatial consistency.
 </p>
 
 <p>
-  After preparation, <strong>DBSCAN clustering</strong> is applied to group nearby attractions. A scoring system is used to rank locations, and the top attraction from each cluster is selected. This reduces redundancy and highlights the most relevant places across the city.
+  To identify meaningful travel zones, <strong>DBSCAN clustering</strong> is applied to group nearby points of interest. A scoring approach is used to evaluate each location, and the top-ranked attraction from each cluster is selected. This process reduces redundancy while preserving spatial coverage across the city.
 </p>
 
 <p>
-  The final result is presented as a clean, well-designed map suitable for both digital viewing and print.
+  The final output is a clean and well-structured map designed for both digital use and print, supporting a more efficient and practical travel planning experience.
 </p>
 
 <h2>Final Map</h2>
 
 <img src="DC_Travel_Planner_Map.png" alt="DC Smart Travel Planner Map" width="900">
 
-<h2>Key Steps</h2>
+<h2>Methodology</h2>
 
 <ul>
-  <li>Collected attraction, food, and park data using <strong>OpenStreetMap</strong></li>
-  <li>Cleaned and standardized the data in <strong>QGIS</strong></li>
-  <li>Reprojected data to <strong>EPSG:26918</strong> for accurate spatial analysis</li>
-  <li>Applied <strong>DBSCAN clustering</strong> to identify high-density areas</li>
-  <li>Created a <strong>scoring system</strong> to rank attractions</li>
-  <li>Performed a <strong>spatial join</strong> to combine clustering results with attributes</li>
-  <li>Extracted the <strong>top attraction from each cluster</strong> using QGIS expressions</li>
-  <li>Designed a final map layout with title, legend, scale bar, and north arrow</li>
+  <li>Collected attraction, food, and park data from <strong>OpenStreetMap</strong></li>
+  <li>Cleaned and standardized datasets in <strong>QGIS</strong></li>
+  <li>Reprojected data to <strong>EPSG:26918 (UTM Zone 18N)</strong> for accurate distance-based analysis</li>
+  <li>Applied <strong>DBSCAN clustering</strong> to identify dense spatial patterns</li>
+  <li>Developed a <strong>scoring system</strong> to rank points of interest</li>
+  <li>Performed <strong>spatial joins</strong> to combine clustering and attribute data</li>
+  <li>Extracted the <strong>top-ranked attraction per cluster</strong> using QGIS expressions</li>
+  <li>Designed a professional map layout including title, legend, scale bar, and north arrow</li>
 </ul>
+
+<h2>Key Insight</h2>
+
+<p>
+  By applying clustering techniques, hundreds of individual locations are reduced into clear, meaningful zones. This approach improves readability and helps users quickly identify high-value areas instead of analyzing scattered points.
+</p>
 
 <h2>Output</h2>
 
 <p>
-  The project produces a final map that highlights <strong>one key attraction per cluster</strong>. This makes it easier to understand spatial patterns and supports more efficient travel planning.
+  The final map highlights <strong>one key attraction per cluster</strong>, providing a simplified and structured view of the city. This supports better spatial understanding and more efficient trip planning.
 </p>
 
-<h2>Files</h2>
+<h2>Project Files</h2>
 
 <ul>
   <li><strong>dc_travel_planner_map.pdf</strong> — final printable map</li>
-  <li><strong>DC_Travel_Planner_Map.png</strong> — preview image</li>
+  <li><strong>DC_Travel_Planner_Map.png</strong> — visual preview</li>
   <li><strong>dc_top_attractions.gpkg</strong> — processed geospatial dataset</li>
 </ul>
 
-<h2>Tools Used</h2>
+<h2>Tools and Technologies</h2>
 
 <ul>
-  <li><strong>QGIS</strong></li>
-  <li><strong>OpenStreetMap</strong></li>
-  <li><strong>Overpass Turbo</strong></li>
+  <li><strong>QGIS</strong> (data processing, spatial analysis, cartography)</li>
+  <li><strong>OpenStreetMap (OSM)</strong> (data source)</li>
+  <li><strong>Overpass Turbo</strong> (data extraction)</li>
+  <li><strong>DBSCAN Clustering</strong> (spatial grouping technique)</li>
 </ul>
 
 <h2>Author</h2>
 
 <p>
-  <strong>Nahid Mozhdehi</strong>
+  <strong>Nahid Mozhdehi</strong><br>
+  GIS Analyst specializing in geospatial data processing, spatial analysis, and workflow automation
 </p>
