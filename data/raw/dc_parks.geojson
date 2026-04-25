@@ -1,0 +1,1887 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-04-24T00:15:59Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356539796",
+        "ele": "653",
+        "gnis:feature_id": "1503805",
+        "leisure": "park",
+        "name": "Captain J Mullan Historic Monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7169996,
+          47.2889564
+        ]
+      },
+      "id": "node/356539796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356540362",
+        "ele": "123",
+        "gnis:feature_id": "1505827",
+        "leisure": "park",
+        "name": "John Day Wildlife Management Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.5108568,
+          45.9342996
+        ]
+      },
+      "id": "node/356540362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356540835",
+        "ele": "538",
+        "gnis:feature_id": "1507374",
+        "leisure": "park",
+        "name": "Peone Creek Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3604948,
+          47.7787813
+        ]
+      },
+      "id": "node/356540835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356540841",
+        "ele": "63",
+        "gnis:feature_id": "1507409",
+        "leisure": "park",
+        "name": "Pickett's Redoubt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0158673,
+          48.4632334
+        ]
+      },
+      "id": "node/356540841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356541237",
+        "ele": "23",
+        "gnis:feature_id": "1508257",
+        "leisure": "park",
+        "name": "Shaw County Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9418467,
+          48.5609344
+        ]
+      },
+      "id": "node/356541237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356541847",
+        "ele": "293",
+        "gnis:feature_id": "1510577",
+        "leisure": "park",
+        "name": "Crab Creek Habitat Management Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.6858709,
+          46.8609689
+        ]
+      },
+      "id": "node/356541847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356541848",
+        "ele": "332",
+        "gnis:feature_id": "1510578",
+        "leisure": "park",
+        "name": "Potholes Habitat Management Area",
+        "wikidata": "Q49545368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3733584,
+          47.0198632
+        ]
+      },
+      "id": "node/356541848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356541859",
+        "ele": "165",
+        "gnis:feature_id": "1510591",
+        "leisure": "park",
+        "name": "McFadden Park",
+        "website": "http://ci.chehalis.wa.us/parksandrecreation/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9531836,
+          46.6623257
+        ]
+      },
+      "id": "node/356541859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356541905",
+        "ele": "451",
+        "gnis:feature_id": "1510643",
+        "leisure": "park",
+        "name": "Robert Camp Memorial Track"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.904663,
+          46.8045998
+        ]
+      },
+      "id": "node/356541905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356541920",
+        "ele": "162",
+        "gnis:feature_id": "1510672",
+        "leisure": "park",
+        "name": "Saddle Mountain National Wildlife Refuge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.627532,
+          46.6884686
+        ]
+      },
+      "id": "node/356541920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356541922",
+        "ele": "2",
+        "gnis:feature_id": "1510674",
+        "leisure": "park",
+        "name": "Columbian White-Tailed Deer National Wildlife Refuge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.413741,
+          46.247332
+        ]
+      },
+      "id": "node/356541922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356541954",
+        "ele": "633",
+        "gnis:feature_id": "1511454",
+        "leisure": "park",
+        "name": "Captain J Mullen Historical Monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5757574,
+          47.3443348
+        ]
+      },
+      "id": "node/356541954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356542386",
+        "ele": "3",
+        "gnis:feature_id": "1513137",
+        "leisure": "park",
+        "name": "Johns River State Wildlife Recreation Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.9857255,
+          46.8948142
+        ]
+      },
+      "id": "node/356542386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356542395",
+        "ele": "277",
+        "gnis:feature_id": "1513171",
+        "leisure": "park",
+        "name": "Mount Erie Park",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "website": "https://www.cityofanacortes.org/Facilities/Facility/Details/Mt-Erie-9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.622949,
+          48.4570478
+        ]
+      },
+      "id": "node/356542395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356542516",
+        "ele": "218",
+        "gnis:feature_id": "1513502",
+        "leisure": "park",
+        "name": "Wahluke Slope Habitat Management Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3980773,
+          46.7206936
+        ]
+      },
+      "id": "node/356542516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356542535",
+        "ele": "486",
+        "gnis:feature_id": "1513722",
+        "leisure": "park",
+        "name": "Banks Lake Wildlife Recreation Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2130822,
+          47.7757024
+        ]
+      },
+      "id": "node/356542535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356542545",
+        "ele": "199",
+        "gnis:feature_id": "1513844",
+        "leisure": "park",
+        "name": "Sunnyside State Wildlife Recreation Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0255981,
+          46.2434644
+        ]
+      },
+      "id": "node/356542545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356542599",
+        "ele": "489",
+        "gnis:feature_id": "1513967",
+        "leisure": "park",
+        "name": "Stratford Wildlife Recreation Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.254746,
+          47.4982001
+        ]
+      },
+      "id": "node/356542599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356543153",
+        "ele": "135",
+        "gnis:feature_id": "1514565",
+        "leisure": "park",
+        "name": "West Lake Padden Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.469335,
+          48.7023304
+        ]
+      },
+      "id": "node/356543153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356543282",
+        "ele": "27",
+        "gnis:feature_id": "1514913",
+        "leisure": "park",
+        "name": "Shaw Island County Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9415689,
+          48.5598233
+        ]
+      },
+      "id": "node/356543282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356544525",
+        "ele": "404",
+        "gnis:feature_id": "1517565",
+        "leisure": "park",
+        "name": "Cedar Flats Natural Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0161993,
+          46.1042795
+        ]
+      },
+      "id": "node/356544525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356544953",
+        "ele": "596",
+        "gnis:feature_id": "1519704",
+        "leisure": "park",
+        "name": "Fort Colville Historical Monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8788702,
+          48.5718481
+        ]
+      },
+      "id": "node/356544953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356545607",
+        "ele": "58",
+        "gnis:feature_id": "1521984",
+        "leisure": "park",
+        "name": "Lacamas Prairie Natural Area",
+        "old_name": "Lechtenberg Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4591729,
+          45.6402179
+        ]
+      },
+      "id": "node/356545607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356546978",
+        "ele": "498",
+        "gnis:feature_id": "1528213",
+        "leisure": "park",
+        "name": "Wind River Natural Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9714725,
+          45.8292819
+        ]
+      },
+      "id": "node/356546978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547034",
+        "ele": "1514",
+        "gnis:feature_id": "1528425",
+        "leisure": "park",
+        "name": "Lake Chelan National Recreation Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.634544,
+          48.3665263
+        ]
+      },
+      "id": "node/356547034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547092",
+        "ele": "424",
+        "gnis:feature_id": "1528662",
+        "leisure": "park",
+        "name": "Entiat State Wildlife Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.216469,
+          47.7554092
+        ]
+      },
+      "id": "node/356547092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547182",
+        "ele": "989",
+        "gnis:feature_id": "1529349",
+        "leisure": "park",
+        "name": "Pixley Sportsman Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8081223,
+          48.3912594
+        ]
+      },
+      "id": "node/356547182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547195",
+        "ele": "348",
+        "gnis:feature_id": "1529434",
+        "leisure": "park",
+        "name": "Wind River Arboretum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9345265,
+          45.7992824
+        ]
+      },
+      "id": "node/356547195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547200",
+        "ele": "125",
+        "gnis:feature_id": "1529440",
+        "leisure": "park",
+        "name": "Quinault Recreation Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.8335105,
+          47.4670313
+        ]
+      },
+      "id": "node/356547200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547203",
+        "ele": "1431",
+        "gnis:feature_id": "1529443",
+        "leisure": "park",
+        "name": "Fourteen Mile Recreation Site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8325814,
+          48.9095974
+        ]
+      },
+      "id": "node/356547203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547222",
+        "ele": "602",
+        "gnis:feature_id": "1529543",
+        "leisure": "park",
+        "name": "Williams Recreation Site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9650589,
+          48.7548785
+        ]
+      },
+      "id": "node/356547222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547223",
+        "ele": "596",
+        "gnis:feature_id": "1529544",
+        "leisure": "park",
+        "name": "Sheep Creek Recreation Site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.8347085,
+          48.9607449
+        ]
+      },
+      "id": "node/356547223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547290",
+        "ele": "770",
+        "gnis:feature_id": "1530047",
+        "leisure": "park",
+        "name": "Conconully National Wildlife Refuge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7450661,
+          48.5351489
+        ]
+      },
+      "id": "node/356547290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547370",
+        "ele": "29",
+        "gnis:feature_id": "1530396",
+        "leisure": "park",
+        "name": "River Meadows Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0831946,
+          48.1809342
+        ]
+      },
+      "id": "node/356547370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547390",
+        "ele": "1699",
+        "gnis:feature_id": "1530432",
+        "leisure": "park",
+        "name": "Dollar Mountain Burn Game Preserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.501405,
+          48.7082253
+        ]
+      },
+      "id": "node/356547390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356547398",
+        "ele": "20",
+        "gnis:feature_id": "1530444",
+        "leisure": "park",
+        "name": "Twin Rivers Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1215307,
+          48.2039897
+        ]
+      },
+      "id": "node/356547398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356548272",
+        "ele": "356",
+        "gnis:feature_id": "1531828",
+        "leisure": "park",
+        "name": "North Columbia Basin State Wildlife Recreation Area - Gloyd Seeps Unit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.3333596,
+          47.2854191
+        ]
+      },
+      "id": "node/356548272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356549594",
+        "ele": "298",
+        "gnis:feature_id": "1533083",
+        "leisure": "park",
+        "name": "Borleske Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3357903,
+          46.0767814
+        ]
+      },
+      "id": "node/356549594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356549828",
+        "ele": "696",
+        "gnis:feature_id": "1534215",
+        "leisure": "park",
+        "name": "Hanging Tree Historical Monument"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2654037,
+          47.3982823
+        ]
+      },
+      "id": "node/356549828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356549829",
+        "ele": "756",
+        "gnis:feature_id": "1534216",
+        "leisure": "park",
+        "name": "George Wright Camp/Treaty Site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2643602,
+          47.3793398
+        ]
+      },
+      "id": "node/356549829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/356681845",
+        "ele": "856",
+        "gnis:feature_id": "1448907",
+        "leisure": "park",
+        "name": "Redlands RV Parks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5183776,
+          37.1320136
+        ]
+      },
+      "id": "node/356681845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/357349982",
+        "ele": "815",
+        "gnis:feature_id": "1966235",
+        "leisure": "park",
+        "name": "John Day Scenic Waterway West"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.4692215,
+          45.9156826
+        ]
+      },
+      "id": "node/357349982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/357642400",
+        "ele": "147",
+        "gnis:feature_id": "2418031",
+        "historic": "district",
+        "leisure": "park",
+        "name": "Treadwell Farm Historic District"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9644444,
+          40.7625
+        ]
+      },
+      "id": "node/357642400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358388032",
+        "ele": "14",
+        "gnis:feature_id": "552693",
+        "historic": "district",
+        "leisure": "park",
+        "name": "Washington Historic District"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.057063,
+          30.6163073
+        ]
+      },
+      "id": "node/358388032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2473083933",
+        "leisure": "park",
+        "name": "Howell Stewart Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8150813,
+          48.4972986
+        ]
+      },
+      "id": "node/2473083933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2640546314",
+        "addr:city": "Sedro Woolley",
+        "addr:housenumber": "24700",
+        "addr:postcode": "98284",
+        "addr:street": "State Route 20",
+        "leisure": "park",
+        "name": "Cascade Trail - West"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2108978,
+          48.5155393
+        ]
+      },
+      "id": "node/2640546314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2669608933",
+        "leisure": "park",
+        "name": "Hyak Sno-Parks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.3925955,
+          47.3915128
+        ]
+      },
+      "id": "node/2669608933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2698296397",
+        "addr:city": "Lynden",
+        "addr:housenumber": "2149",
+        "addr:postcode": "98263",
+        "addr:street": "East Badger Road",
+        "contact:email": "info@gobigpaintball.net",
+        "description": "Paintball and Airsoft arena",
+        "leisure": "park",
+        "name": "GoBig Paintball",
+        "phone": "+1-360-318-7637",
+        "website": "http://bellinghampaintball.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.37262,
+          48.959786
+        ]
+      },
+      "id": "node/2698296397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2824635732",
+        "addr:city": "Concrete",
+        "addr:housenumber": "45821",
+        "addr:postcode": "98237",
+        "addr:street": "Railroad Street",
+        "leisure": "park",
+        "name": "Cascade Trail - East"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7482299,
+          48.5381802
+        ]
+      },
+      "id": "node/2824635732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2895789513",
+        "addr:city": "Mount Vernon",
+        "addr:housenumber": "11404",
+        "addr:postcode": "98273",
+        "addr:street": "Bay View - Edison Road",
+        "leisure": "park",
+        "name": "Padilla Bay Shore Trail - North Trailhead"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4730114,
+          48.480177
+        ]
+      },
+      "id": "node/2895789513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2986832981",
+        "leisure": "park",
+        "name": "Fourth of July Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0035153,
+          48.4682307
+        ]
+      },
+      "id": "node/2986832981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076363697",
+        "access": "permissive",
+        "barrier": "swing_gate",
+        "leisure": "park",
+        "seasonal": "summer",
+        "swing_gate:type": "single"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.8707697,
+          48.0525376
+        ]
+      },
+      "id": "node/3076363697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3081986660",
+        "access": "yes",
+        "alt_name": "(nłx̣ʷłox̣ʷ)",
+        "description": "Manresa Grotto is a natural cave located on the Kalispel Indian Reservation north of Usk, WA, that served as a chapel for Jesuit missionaries (q̓ʷaylqs) and the Kalispel people. Measuring 75 feet wide by 50 feet long,",
+        "image": "https://www.tripadvisor.com/Attraction_Review-g58428-d4842693-Reviews-Manresa_Grotto-Cusick_Washington.html#/media/4842693/?albumid=-160&type=ALL_INCLUDING_RESTRICTED&category=-160",
+        "leisure": "park",
+        "name": "Manresa Grotto",
+        "source": "https://www.tripadvisor.com/Attraction_Review-g58428-d4842693-Reviews-Manresa_Grotto-Cusick_Washington.html;http://pendoreilleheritage.com/?page_id=15&location_id=360832;https://scenicwa.com/poi/manresa-grotto",
+        "website": "https://www.wta.org/go-hiking/hikes/manresa-grotto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2826452,
+          48.3934339
+        ]
+      },
+      "id": "node/3081986660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4072596311",
+        "leisure": "park",
+        "name": "Bachelor Island Unit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7661657,
+          45.8216892
+        ]
+      },
+      "id": "node/4072596311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4072596312",
+        "leisure": "park",
+        "name": "Carty Unit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7610373,
+          45.836641
+        ]
+      },
+      "id": "node/4072596312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4072596313",
+        "leisure": "park",
+        "name": "Ridgeport Dairy Unit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7536344,
+          45.75795
+        ]
+      },
+      "id": "node/4072596313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4072596314",
+        "leisure": "park",
+        "name": "River S Unit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7471328,
+          45.7961574
+        ]
+      },
+      "id": "node/4072596314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4072596315",
+        "leisure": "park",
+        "name": "Roth Unit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7539993,
+          45.7797133
+        ]
+      },
+      "id": "node/4072596315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4293860397",
+        "leisure": "park",
+        "name": "Bradley Hills ORV Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2769385,
+          46.2336807
+        ]
+      },
+      "id": "node/4293860397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4336174232",
+        "leisure": "park",
+        "name": "Open Water Park",
+        "website": "https://www.seattle.gov/parks/find/parks/open-water-park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3859584,
+          47.6299101
+        ]
+      },
+      "id": "node/4336174232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4464321245",
+        "leisure": "park",
+        "name": "Mirabeau Meadows"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.226696,
+          47.6851974
+        ]
+      },
+      "id": "node/4464321245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4544099157",
+        "leisure": "park",
+        "name": "Jones Creek ORV Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3057196,
+          45.6669885
+        ]
+      },
+      "id": "node/4544099157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4639863834",
+        "leisure": "park",
+        "name": "Eastside Lake"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.1489815,
+          38.6604738
+        ]
+      },
+      "id": "node/4639863834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5113967067",
+        "leisure": "park",
+        "name": "Waterman Shoreline Preserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3731504,
+          47.9994092
+        ]
+      },
+      "id": "node/5113967067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5231099889",
+        "leisure": "park",
+        "name": "Gordon Carter Conservation Site",
+        "operator": "Bellingham School District"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2877818,
+          48.6712655
+        ]
+      },
+      "id": "node/5231099889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5237315884",
+        "leisure": "park",
+        "name": "Mukilteo Community Beach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3026664,
+          47.9493746
+        ]
+      },
+      "id": "node/5237315884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5408104240",
+        "leisure": "park",
+        "name": "Beal Park",
+        "operator": "Ferry County",
+        "operator:type": "government"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.7469598,
+          48.910631
+        ]
+      },
+      "id": "node/5408104240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6061559103",
+        "leisure": "park",
+        "name": "Stone-Bridge terrrill preserve"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8860791,
+          48.7084295
+        ]
+      },
+      "id": "node/6061559103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6290317305",
+        "leisure": "park",
+        "name": "Old Stump"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1943064,
+          47.1945003
+        ]
+      },
+      "id": "node/6290317305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6733243598",
+        "leisure": "park",
+        "name": "Jack Morris Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9267416,
+          46.5049686
+        ]
+      },
+      "id": "node/6733243598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7297839495",
+        "leisure": "park",
+        "name": "Bendtsen Public Access",
+        "opening_hours": "sunrise-sunset",
+        "operator": "Washington Department of Fish and Wildlife",
+        "operator:short": "WDFW",
+        "operator:type": "government",
+        "operator:wikidata": "Q28373915",
+        "website": "https://wdfw.wa.gov/places-to-go/water-access-sites/bendtsen-1540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1260379,
+          48.2161769
+        ]
+      },
+      "id": "node/7297839495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7797236541",
+        "leisure": "park",
+        "name": "French Cabin Sno Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1095753,
+          47.3562625
+        ]
+      },
+      "id": "node/7797236541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7797237869",
+        "leisure": "park",
+        "name": "French Cabin Creek Recreation Area",
+        "website": "https://www.fs.usda.gov/recarea/okawen/recarea/?recid=57515"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1142077,
+          47.3537408
+        ]
+      },
+      "id": "node/7797237869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8017419836",
+        "leisure": "park",
+        "name": "Eagle Cliff Park Recreation Area",
+        "operator": "PacifiCorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0202756,
+          46.0663752
+        ]
+      },
+      "id": "node/8017419836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8846418253",
+        "leisure": "park",
+        "name": "Smith & Vallee Sculpture Park",
+        "operator": "Smith & Vallee",
+        "website": "https://www.smithandvalleegallery.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4437183,
+          48.5628751
+        ]
+      },
+      "id": "node/8846418253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8962127723",
+        "leisure": "park",
+        "name": "Pandora (station sign)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2758006,
+          47.2410531
+        ]
+      },
+      "id": "node/8962127723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9269169887",
+        "leisure": "park",
+        "name": "Plummer Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9750817,
+          46.7179571
+        ]
+      },
+      "id": "node/9269169887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9398215276",
+        "leisure": "park",
+        "name": "Pyramid Creek SnoPark",
+        "operator": "Washington State"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4568948,
+          47.1134649
+        ]
+      },
+      "id": "node/9398215276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10181486370",
+        "leisure": "park",
+        "name": "Havens Park",
+        "operator": "City of Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0407929,
+          35.5367671
+        ]
+      },
+      "id": "node/10181486370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10584669594",
+        "leisure": "park",
+        "name": "Salish Landing Park (future)",
+        "note": "https://kgmi.com/news/007700-city-officially-names-new-waterfront-park-in-bellingham/",
+        "operator": "City of Bellingham",
+        "operator:type": "public",
+        "operator:wikidata": "Q430267"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4934729,
+          48.7400344
+        ]
+      },
+      "id": "node/10584669594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10940084659",
+        "leisure": "park",
+        "name": "Camp Rad Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.9509412,
+          48.1640716
+        ]
+      },
+      "id": "node/10940084659"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11009340382",
+        "leisure": "park",
+        "name": "Play Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.304179,
+          47.897596
+        ]
+      },
+      "id": "node/11009340382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11429079139",
+        "access": "yes",
+        "addr:city": "Tenino",
+        "addr:housenumber": "8431",
+        "addr:postcode": "98589",
+        "addr:state": "WA",
+        "addr:street": "Waldrick Road Southeast",
+        "building": "government",
+        "email": "monarchsculpturepark@gmail.com",
+        "leisure": "park",
+        "name": "Monarch Sculpture Park",
+        "opening_hours": "Mo-Su 07:00-18:00",
+        "phone": "+1-360-264-2408"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7610228,
+          46.9014843
+        ]
+      },
+      "id": "node/11429079139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12035190525",
+        "addr:city": "Puyallup",
+        "addr:housenumber": "2002",
+        "addr:postcode": "98371",
+        "addr:state": "WA",
+        "addr:street": "7th Avenue Southwest",
+        "leisure": "park",
+        "name": "Clark's Creek Park North",
+        "opening_hours": "06:00-23:00; Oct-Feb 06:00-21:00",
+        "website": "https://cityofpuyallup.org/Facilities/Facility/Details/Clarks-Creek-Park-North-3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3217529,
+          47.1861529
+        ]
+      },
+      "id": "node/12035190525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12198275309",
+        "description": "West Bar is one of several major sediment bars in the northwestern Columbia River. The bar is characterized by extremely large ripple marks. We see such ripples in many places where water is flowing, such as at the beach or along rivers.",
+        "image": "https://wa100.dnr.wa.gov/columbia-basin/west-bar",
+        "leisure": "park",
+        "name": "West Bar - Ice Age Ripples",
+        "note": "https://www.youtube.com/watch?v=GuP_MlfK5zk&t=1s",
+        "website": "https://wa100.dnr.wa.gov/columbia-basin/west-bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0183065,
+          47.2067737
+        ]
+      },
+      "id": "node/12198275309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12308426833",
+        "leisure": "park",
+        "name": "North End Grand Canal Park",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.1597703,
+          47.0059676
+        ]
+      },
+      "id": "node/12308426833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12403416370",
+        "access": "yes",
+        "description": "This spring is located between a small bridge crossing over the Green River and the Green River Gorge Resort. Many people come to harvest the water for resale but others come to fill up in support of a healthy source of drinking water.",
+        "dog": "no",
+        "image": "https://findaspring.org/spring/locations/north-america/usa/green-river-gorge-springenumclaw-wa-98022/",
+        "leisure": "park",
+        "name": "Green River Gorge Springs",
+        "source": "https://theviewfromadrawbridge.com/2020/09/02/a-brief-taste-of-green-river-gorge-resort/;https://maps.roadtrippers.com/us/enumclaw-wa/nature/green-river-gorge-spring",
+        "website": "https://findaspring.org/spring/locations/north-america/usa/green-river-gorge-springenumclaw-wa-98022/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.9492347,
+          47.3027016
+        ]
+      },
+      "id": "node/12403416370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12459930419",
+        "leisure": "park",
+        "name": "Geophysical Sno-Park",
+        "operator": "Washington State Parks and Recreation Commission",
+        "operator:type": "public",
+        "operator:wikidata": "Q7972267",
+        "seasonal": "winter",
+        "website": "https://parks.wa.gov/find-sno-parks/geophysical-sno-park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1211527,
+          48.2539061
+        ]
+      },
+      "id": "node/12459930419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12467406696",
+        "leisure": "park",
+        "name": "Centennial Plaza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.2712942,
+          46.2810074
+        ]
+      },
+      "id": "node/12467406696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12522246277",
+        "addr:city": "Kent",
+        "addr:housenumber": "3032",
+        "addr:postcode": "98032",
+        "addr:state": "WA",
+        "addr:street": "South 272nd Street",
+        "addr:unit": "1",
+        "leisure": "park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2937653,
+          47.3581493
+        ]
+      },
+      "id": "node/12522246277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12641853847",
+        "leisure": "park",
+        "name": "Bicentennial Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2353325,
+          47.5817041
+        ]
+      },
+      "id": "node/12641853847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12644041345",
+        "leisure": "park",
+        "name": "Trident Lake Recreation Area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7103227,
+          47.6827481
+        ]
+      },
+      "id": "node/12644041345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12670847457",
+        "leisure": "park",
+        "name": "Union Slough Park",
+        "operator": "Port of Everett"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.1803687,
+          48.0325194
+        ]
+      },
+      "id": "node/12670847457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12710799763",
+        "leisure": "park",
+        "name": "Ferry Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4560385,
+          47.2483768
+        ]
+      },
+      "id": "node/12710799763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12741387409",
+        "addr:city": "Vancouver",
+        "addr:housenumber": "11912",
+        "addr:street": "Northeast 95th Street",
+        "leisure": "park",
+        "name": "11912 NE 95th St"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5513313,
+          45.6907141
+        ]
+      },
+      "id": "node/12741387409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12771632559",
+        "addr:city": "Washington",
+        "addr:state": "CT",
+        "addr:street": "East Shore Road",
+        "leisure": "park",
+        "name": "Lake Waramaug Boat Ramp (Town of Washington)",
+        "operator": "Town of Washington, CT",
+        "operator:type": "government",
+        "website": "https://www.washingtonct.org/parks-and-recreation-commission/files/boat-ramp-hours-2025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3523884,
+          41.6829421
+        ]
+      },
+      "id": "node/12771632559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12843175127",
+        "access": "yes",
+        "dog": "unleashed",
+        "leisure": "park",
+        "name": "City Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4351039,
+          48.942149
+        ]
+      },
+      "id": "node/12843175127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12960622254",
+        "addr:city": "Tacoma",
+        "addr:housenumber": "5361",
+        "addr:postcode": "98405",
+        "addr:state": "WA",
+        "addr:street": "Yacht Club Road",
+        "leisure": "park",
+        "name": "Dune Peninsula At Point Defiance Park",
+        "website": "https://www.parkstacoma.gov/place/dune-peninsula/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.5097921,
+          47.3061889
+        ]
+      },
+      "id": "node/12960622254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12998513389",
+        "addr:city": "Packwood",
+        "addr:state": "WA",
+        "check_date": "2025-07-13",
+        "leisure": "park",
+        "name": "Packwood Cowlitz River Public Access Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.6765069,
+          46.6118812
+        ]
+      },
+      "id": "node/12998513389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13078561789",
+        "leisure": "park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9058402,
+          48.6983676
+        ]
+      },
+      "id": "node/13078561789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13179459473",
+        "leisure": "park",
+        "name": "White Chuck Overlook Picnic Area",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4570207,
+          48.1713499
+        ]
+      },
+      "id": "node/13179459473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13198249474",
+        "leisure": "park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4674554,
+          47.2269105
+        ]
+      },
+      "id": "node/13198249474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13275593955",
+        "addr:city": "Spokane",
+        "addr:housenumber": "3700",
+        "addr:postcode": "99223",
+        "addr:state": "WA",
+        "addr:street": "S Thierman Rd",
+        "dog": "leashed",
+        "leisure": "park",
+        "name": "Glenrose Trailhead",
+        "opening_hours": "Mo-Su 05:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3133403,
+          47.6211124
+        ]
+      },
+      "id": "node/13275593955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13503327214",
+        "leisure": "park",
+        "name": "Rumford Beach",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "operator": "City of Seattle",
+        "operator:type": "public"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2706218,
+          47.5678938
+        ]
+      },
+      "id": "node/13503327214"
+    }
+  ]
+}
