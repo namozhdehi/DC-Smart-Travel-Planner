@@ -26,8 +26,8 @@
 
 <h2>Final Map</h2>
 
-<a href="outputs/dc_travel_map.png" target="_blank">
-  <img src="outputs/dc_travel_map.png" alt="DC Smart Travel Planner Map" width="900">
+<a href="DC-Smart-Travel-Planner/outputs/dc_top_attractions_map.png" target="_blank">
+  <img src="DC-Smart-Travel-Planner/outputs/dc_top_attractions_map.png" alt="DC Smart Travel Planner Map" width="900">
 </a>
 
 ---
@@ -43,7 +43,7 @@
   <li>Performed <strong>spatial joins</strong> to combine clustering results with attribute data</li>
   <li>Extracted the <strong>top-ranked attraction per cluster</strong> using QGIS expressions</li>
   <li>Applied cartographic design principles (visual hierarchy, symbol scaling, clutter reduction)</li>
-  <li>Designed a professional print layout with title, legend, scale bar, and north arrow</li>
+  <li>Designed a professional map layout including title, legend, scale bar, and north arrow</li>
 </ul>
 
 ---
@@ -68,15 +68,15 @@
 
 <pre>
 data/
-  raw/        → original GeoJSON from Overpass
-  final/      → cleaned and processed datasets
+  raw/
+  final/
 
 qgis/
   dc_travel_planner.qgz
 
 outputs/
-  dc_travel_map.png
-  dc_travel_map.pdf
+  dc_top_attractions_map.png
+  dc_travel_planner_map.pdf
 
 scripts/
   export_gpkg_to_geojson.py
@@ -88,15 +88,15 @@ scripts/
 
 <ul>
   <li>
-    <a href="outputs/dc_travel_map.pdf" target="_blank">
-      <strong>dc_travel_map.pdf</strong>
+    <a href="DC-Smart-Travel-Planner/outputs/dc_travel_planner_map.pdf" target="_blank">
+      <strong>dc_travel_planner_map.pdf</strong>
     </a>
     — final printable map
   </li>
 
   <li>
-    <a href="outputs/dc_travel_map.png" target="_blank">
-      <strong>dc_travel_map.png</strong>
+    <a href="DC-Smart-Travel-Planner/outputs/dc_top_attractions_map.png" target="_blank">
+      <strong>dc_top_attractions_map.png</strong>
     </a>
     — visual preview
   </li>
