@@ -64,7 +64,7 @@
   </li>
 
   <li>
-    <a href="DC_Travel_Planner_Map.png" target="_blank">
+    <a href="dc_top_attractions_map.png" target="_blank">
       <strong>DC_Travel_Planner_Map.png</strong>
     </a>
     — visual preview
