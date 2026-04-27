@@ -24,7 +24,7 @@
 
 <h2>Final Map</h2>
 
-<a href="DC_Travel_Planner_Map.png" target="_blank">
+<a href="dc_top_attractions_map.png" target="_blank">
   <img src="DC_Travel_Planner_Map.png" alt="DC Smart Travel Planner Map" width="900">
 </a>
 
