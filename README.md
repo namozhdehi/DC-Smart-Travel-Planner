@@ -57,15 +57,15 @@
 
 <ul>
   <li>
-    <a href="dc_travel_planner_map.pdf" target="_blank">
-      <strong>dc_travel_planner_map.pdf</strong>
+    <a href="dc_top_attractions_map.pdf" target="_blank">
+      <strong>dc_top_attractions_map.pdf</strong>
     </a>
     — final printable map
   </li>
 
   <li>
     <a href="dc_top_attractions_map.png" target="_blank">
-      <strong>DC_Travel_Planner_Map.png</strong>
+      <strong>dc_top_attractions_map.png</strong>
     </a>
     — visual preview
   </li>
