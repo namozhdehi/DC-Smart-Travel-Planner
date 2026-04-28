@@ -1,139 +1,22 @@
-<h1>DC Smart Travel Planner (GIS Project)</h1>
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-<p>
-  This project demonstrates how <strong>geospatial analysis</strong> can be used to organize and simplify travel decision-making in <strong>Washington, DC</strong>.
-</p>
-
-<p>
-  Instead of displaying all locations equally, the analysis groups nearby attractions into meaningful clusters, ranks them based on importance, and selects one representative location per area. This reduces visual clutter and highlights the most valuable places for visitors.
-</p>
-
-<hr>
-
-<h2>Project Overview</h2>
-
-<p>
-  The workflow begins with collecting open geospatial data from <strong>OpenStreetMap</strong> using <strong>Overpass Turbo</strong>. The data is then cleaned and prepared in <strong>QGIS</strong>, including removing incomplete records, standardizing attributes, and resolving coordinate reference system (CRS) issues.
-</p>
-
-<p>
-  To identify meaningful travel zones, <strong>DBSCAN clustering</strong> is applied to group nearby points of interest. A scoring approach is used to evaluate each location, and the top-ranked attraction from each cluster is selected. This reduces redundancy while preserving spatial coverage across the city.
-</p>
-
-<p>
-  The final output is a clean and well-structured map designed for both digital use and print, supporting a more efficient and practical travel planning experience.
-</p>
-
-<hr>
-
-<h2>Final Map</h2>
-
-<!-- ✅ THIS PATH WORKS -->
-<a href="outputs/dc_top_attractions_map.png" target="_blank">
-  <img src="outputs/dc_top_attractions_map.png" alt="DC Smart Travel Planner Map" width="900">
-</a>
-
-<hr>
-
-<h2>Methodology</h2>
-
-<ul>
-  <li>Collected attraction, food, and park data from <strong>OpenStreetMap</strong> via <strong>Overpass Turbo</strong></li>
-  <li>Cleaned and standardized datasets in <strong>QGIS</strong> (removed nulls, created <code>name_clean</code> and <code>type</code>)</li>
-  <li>Resolved CRS issues and reprojected data to <strong>EPSG:26918 (UTM Zone 18N)</strong></li>
-  <li>Applied <strong>DBSCAN clustering</strong> to identify dense spatial patterns</li>
-  <li>Developed a <strong>scoring system</strong> to rank points of interest</li>
-  <li>Performed <strong>spatial joins</strong> to combine clustering and attribute data</li>
-  <li>Extracted the <strong>top-ranked attraction per cluster</strong> using QGIS expressions</li>
-  <li>Applied cartographic design principles (visual hierarchy, symbol scaling, clutter reduction)</li>
-  <li>Designed a professional print layout with title, legend, scale bar, and north arrow</li>
-</ul>
-
-<hr>
-
-<h2>Key Insight</h2>
-
-<p>
-  By applying clustering techniques, hundreds of individual locations are reduced into clear, meaningful zones. This significantly improves readability and helps users quickly identify high-value areas.
-</p>
-
-<hr>
-
-<h2>Output</h2>
-
-<p>
-  The final map highlights <strong>one key attraction per cluster</strong>, supported by contextual layers for parks and food locations. The design focuses on clarity and usability.
-</p>
-
-<hr>
-
-<h2>Project Structure</h2>
-
-<pre>
-data/
-  raw/
-  final/
-
-qgis/
-  dc_travel_planner.qgz
-
-outputs/
-  dc_top_attractions_map.png
-  dc_travel_planner_map.pdf
-
-scripts/
-</pre>
-
-<hr>
-
-<h2>Project Files</h2>
-
-<ul>
-  <li>
-    <a href="outputs/dc_travel_planner_map.pdf" target="_blank">
-      <strong>dc_travel_planner_map.pdf</strong>
-    </a>
-    — final printable map
-  </li>
-
-  <li>
-    <a href="outputs/dc_top_attractions_map.png" target="_blank">
-      <strong>dc_top_attractions_map.png</strong>
-    </a>
-    — visual preview
-  </li>
-
-  <li>
-    <a href="dc_top_attractions.gpkg" target="_blank">
-      <strong>dc_top_attractions.gpkg</strong>
-    </a>
-    — processed geospatial dataset
-  </li>
-
-  <li>
-    <a href="qgis/dc_travel_planner.qgz" target="_blank">
-      <strong>dc_travel_planner.qgz</strong>
-    </a>
-    — QGIS project file
-  </li>
-</ul>
-
-<hr>
-
-<h2>Tools and Technologies</h2>
-
-<ul>
-  <li><strong>QGIS</strong> (data processing, spatial analysis, cartography)</li>
-  <li><strong>OpenStreetMap (OSM)</strong> (data source)</li>
-  <li><strong>Overpass Turbo</strong> (data extraction)</li>
-  <li><strong>DBSCAN Clustering</strong> (spatial grouping technique)</li>
-</ul>
-
-<hr>
-
-<h2>Author</h2>
-
-<p>
-  <strong>Nahid Mozhdehi</strong><br>
-  GIS Analyst specializing in geospatial data processing, spatial analysis, and workflow automation
-</p>
+\f0\fs24 \cf0 <h2>Interactive Web App</h2>\
+\
+<p>\
+  This project also includes a lightweight Leaflet web app that allows users to choose trip duration, starting location, and interests such as attractions, parks, and food. The app uses cleaned GeoJSON datasets exported from the QGIS/Python workflow and generates a simple suggested trip plan.\
+</p>\
+\
+<pre>\
+python3 -m http.server 8000\
+</pre>\
+\
+<p>Then open:</p>\
+\
+<pre>\
+http://localhost:8000\
+</pre>}
